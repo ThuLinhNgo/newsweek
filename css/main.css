@@ -1,0 +1,62 @@
+.container-fluid .main-content {
+  margin-top: 0;
+  height: 900px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.col-md-9 img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.color-red {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.color-blue {
+  color: rgb(71, 173, 242);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.left-photo {
+  text-align: center;
+}
+
+img {
+  object-fit: cover;
+}
+
+.col-md-3 {
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+.col-md-3 h2 {
+  color: rgb(250, 68, 68);
+}
+
+.col-md-3 a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.col-md-3 li {
+  border-bottom: 0.5px solid rgb(136, 129, 129);
+}
