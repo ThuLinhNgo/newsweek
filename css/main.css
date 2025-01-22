@@ -10,6 +10,7 @@
 .col-md-9 img {
   object-fit: cover;
   width: 100%;
+  shadow
 }
 
 .color-red {
@@ -60,3 +61,8 @@ img {
 .col-md-3 li {
   border-bottom: 0.5px solid rgb(136, 129, 129);
 }
+
+li::marker {
+  color: red;
+}
+
