@@ -66,3 +66,24 @@ li::marker {
   color: red;
 }
 
+.second-row {
+  margin-top: 100px;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.8;
+  top: 900px;
+  width: 100%;
+  border-top: 3px solid red;
+}
+
+.btn-secondary {
+  background-color: rgb(201, 175, 175);
+  font-weight: bold;
+}
