@@ -10,7 +10,6 @@
 .col-md-9 img {
   object-fit: cover;
   width: 100%;
-  shadow
 }
 
 .color-red {
@@ -78,7 +77,7 @@ li::marker {
   position: absolute;
   background-color: #fff;
   opacity: 0.8;
-  top: 900px;
+  top: 650px;
   width: 100%;
   border-top: 3px solid red;
 }
