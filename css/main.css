@@ -1,6 +1,7 @@
 .container-fluid .main-content {
   margin-top: 0;
   height: 900px;
+  position: relative;
 }
 
 .navbar {
@@ -74,13 +75,17 @@ li::marker {
 }
 
 .child {
-  position: absolute;
   background-color: #fff;
   opacity: 0.8;
-  top: 650px;
-  width: 100%;
   border-top: 3px solid red;
 }
+
+@media (min-width: 972px) {
+  .child {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
 
 .btn-secondary {
   background-color: rgb(201, 175, 175);
